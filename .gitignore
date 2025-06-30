@@ -1,0 +1,5 @@
+# 忽略这几个目录
+audio/ext_weights/
+audio/weights/
+TTS/cv/pretrained_models/
+
