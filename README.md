@@ -5,7 +5,7 @@ Welcome to **Role-Playing-TTS**!
 ## 🔊 Results
 
 
-https://github.com/user-attachments/assets/22f9a278-60ae-4bae-86be-6b5e26c32246
+https://github.com/user-attachments/assets/be2a2afd-d0c8-45b9-a858-6cf68c9c137c
 
 
 
