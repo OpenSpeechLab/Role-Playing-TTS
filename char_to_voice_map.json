@@ -1,145 +1,146 @@
 {
     "孙悟空": {
       "id": "孙悟空",
-      "wav_path": "./TTS/CosyVoice/cvd/swk.wav",
+      "wav_path": "./cvd/swk.wav",
       "desc": "孙悟空",
-      "asr_text": "欸，师父，你忘了他们把你吊在树上的滋味了？哼，你要是心疼这帮毛贼，就让他们还把你吊在树上荡秋千，老孙再也不管了！"
+      "asr_text": "欸，师父，你忘了他们把你吊在树上的滋味了。哼，你要是心疼这帮毛贼，就让他们还把你吊在树上荡秋千，老孙再也不管了。",
+      "asr": "八戒，你记得当年我三打白骨精，是你去花果山把俺请回来的。"
     },
     "猪八戒": {
       "id": "猪八戒",
-      "wav_path": "./TTS/CosyVoice/cvd/zbj.wav",
+      "wav_path": "./cvd/zbj.wav",
       "desc": "猪八戒",
       "asr_text": "你在这看着师父，我去把白龙马牵到有人家的地方买了，咱们把师父埋了呢，咱们只好是各奔东西啦。"
     },
     "旁白": {
       "id": "旁白",
-      "wav_path": "./TTS/CosyVoice/cvd/pb.wav",
+      "wav_path": "./cvd/pb.wav",
       "desc": "旁白",
       "asr_text": "整体恐怖事件，是从几个年轻人的一场无聊的游戏开始的。"
     },
     "唐僧": {
       "id": "唐僧",
-      "wav_path": "./TTS/CosyVoice/cvd/ts.wav",
+      "wav_path": "./cvd/ts.wav",
       "desc": "唐僧",
       "asr_text": "阿弥陀佛，仙童一见那东西我就胆战心惊，哪里还敢偷着吃呀。"
     },
     "李靖": {
       "id": "李靖",
-      "wav_path": "./TTS/CosyVoice/cvd/lj.wav",
+      "wav_path": "./cvd/lj.wav",
       "desc": "李靖",
       "asr_text": "你可知为什么人们都拍你，你真实的身份其实是..."
     },
     "敖丙": {
       "id": "敖丙",
-      "wav_path": "./TTS/CosyVoice/cvd/ab.wav",
+      "wav_path": "./cvd/ab.wav",
       "desc": "敖丙",
       "asr_text": "弟子运转了七轮小周天，四轮大周天，新习得冰河飞泉和寒霜残雪，冰玉九天已经练到了七重天。"
     },
     "殷夫人": {
       "id": "殷夫人",
-      "wav_path": "./TTS/CosyVoice/cvd/yfr.wav",
+      "wav_path": "./cvd/yfr.wav",
       "desc": "殷夫人",
       "asr_text": "你自己想想，爹娘都是人怎么生的出妖怪。"
     },
     "申公豹": {
       "id": "申公豹",
-      "wav_path": "./TTS/CosyVoice/cvd/sgb.wav",
+      "wav_path": "./cvd/sgb.wav",
       "desc": "申公豹",
       "asr_text": "事到如今，你还被蒙在鼓里呢。"
     },
     "太乙真人": {
       "id": "太乙真人",
-      "wav_path": "./TTS/CosyVoice/cvd/tyzr.wav",
+      "wav_path": "./cvd/tyzr.wav",
       "desc": "太乙真人",
       "asr_text": "对，这就是我万神敬仰的太乙真人,虽然有点婴儿肥,但也掩不住我逼人的帅气。"
     },
     "周杰伦": {
       "id": "周杰伦",
-      "wav_path": "./TTS/CosyVoice/cvd/jielun.wav",
+      "wav_path": "./cvd/jielun.wav",
       "desc": "周杰伦",
       "asr_text": "对我来讲是一种荣幸,但是也是压力蛮大的，不过我觉得是一种额...很好的一个挑战"
     },
     "刘德华": {
       "id": "刘德华",
-      "wav_path": "./TTS/CosyVoice/cvd/dehua.wav",
+      "wav_path": "./cvd/dehua.wav",
       "desc": "刘德华",
       "asr_text": "所以我觉得这些，成功的电影他都很真诚，而且很有生命力。他就跟当年的内个零号的内个一模一样"
     },
     "徐志胜": {
       "id": "徐志胜",
-      "wav_path": "./TTS/CosyVoice/cvd/zhisheng.wav",
+      "wav_path": "./cvd/zhisheng.wav",
       "desc": "徐志胜",
       "asr_text": "有一次我跟我的三个领导坐电梯去吃饭，大家可能知道昂，在电梯里有一项潜规则，是谁的地位越低，谁就应该按这个电梯按键，但我当时就认为谁离得近谁按。"
     },
     "郭德纲": {
       "id": "郭德纲",
-      "wav_path": "./TTS/CosyVoice/cvd/degang.wav",
+      "wav_path": "./cvd/degang.wav",
       "desc": "郭德纲",
       "asr_text": "一只鸭子要切一百零八片儿，那叫丁香叶。先把鸭子脑袋和鸭子屁股切下来，单找一个小盘儿放。这一桌吃饭的人，谁身份高贵。"
     },
     "于谦": {   
       "id": "于谦",
-      "wav_path": "./TTS/CosyVoice/cvd/yq.wav",
+      "wav_path": "./cvd/yq.wav",
       "desc": "于谦",
       "asr_text": "我这德云社的老于呢，喜欢养马，唉，我不单喜欢养马喜欢各种动物。我在大兴有我自己的一个小动物园，里面有几匹马。正好呢，录制的现场就安排在我内个动物园里。"
     },
     "沙悟净": {
       "id": "沙悟净",
-      "wav_path": "./TTS/CosyVoice/cvd/swj.wav",
+      "wav_path": "./cvd/swj.wav",
       "desc": "沙僧",
       "asr_text": "师父，大师兄对师父忠心耿耿，师父您又何必如此绝情呢。"
     },
     "哪吒": {
       "id": "哪吒",
-      "wav_path": "./TTS/CosyVoice/cvd/nz.wav",
+      "wav_path": "./cvd/nz.wav",
       "desc": "哪吒",
       "asr_text": "哎呀，看我的厉害！谁说三太子不会玩的？来来来，跟我比比看啊！哼，我可是最厉害的，不信你试试看！好啦好啦，别害怕，我其实就是想找个人一起玩而已。再来再来，这次我让你先！"
     },
     "老年男": {
       "id": "老年男",
-      "wav_path": "./TTS/CosyVoice/cvd/lnm.wav",
+      "wav_path": "./cvd/lnm.wav",
       "desc": "老年男",
       "asr_text": "你们的眼睛根本参不透这些符文。"
     },
     "中年男": {
       "id": "中年男",
-      "wav_path": "./TTS/CosyVoice/cvd/znm.wav",
+      "wav_path": "./cvd/znm.wav",
       "desc": "中年男",
       "asr_text": "即使敌众我寡末将亦能万军从中取敌将首级。"
     },
     "青年男": {
       "id": "青年男",
-      "wav_path": "./TTS/CosyVoice/cvd/qnw.wav",
+      "wav_path": "./cvd/qnw.wav",
       "desc": "青年男",
       "asr_text": "在别的游戏里，像我这么帅的，一般都是主角！"
     },
     "少年男": {
       "id": "少年男",
-      "wav_path": "./TTS/CosyVoice/cvd/snm.wav",
+      "wav_path": "./cvd/snm.wav",
       "desc": "少年男",
       "asr_text": "以前我最好的朋友马力诺斯经常给我讲故事有一个说的是一个王国里头全是鬼魂。"
     },
     "老年女": {
       "id": "老年女",
-      "wav_path": "./TTS/CosyVoice/cvd/lnw.wav",
+      "wav_path": "./cvd/lnw.wav",
       "desc": "老年女",
       "asr_text": "哎，叫我老婆子说呀，没什么难解的事，你年纪轻轻的，又是出家人。"
     },
     "中年女": {
       "id": "中年女",
-      "wav_path": "./TTS/CosyVoice/cvd/znw.wav",
+      "wav_path": "./cvd/znw.wav",
       "desc": "中年女",
       "asr_text": "你宣称自己为和平而来，但我们对和平的理解似乎并不相同。"
     },
     "青年女": {
       "id": "青年女",
-      "wav_path": "./TTS/CosyVoice/cvd/qnw.wav",
+      "wav_path": "./cvd/qnw.wav",
       "desc": "青年女",
       "asr_text": "我不知道符文有什么意义，说真的咒语有那么难记吗。"
     },
     "少年女": {
       "id": "少年女",
-      "wav_path": "./TTS/CosyVoice/cvd/snw.wav",
+      "wav_path": "./cvd/snw.wav",
       "desc": "少年女",
       "asr_text": "不要只被一具身体舒服，还有辣么多的选择。"
     }

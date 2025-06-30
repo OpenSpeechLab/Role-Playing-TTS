@@ -241,7 +241,7 @@ if __name__ == "__main__":
     parser.add_argument("--text", type=str, required=False, help="输入的文本主题")
     parser.add_argument("--step1", type=str, help="Step1 output JSON 文件的路径，如果提供则跳过Step1生成")
     parser.add_argument("--step2", type=str, help="Step2 output JSONL 文件的路径，如果提供则跳过Step1和Step2生成")
-    parser.add_argument("--output_path", type=str, default="output1", help="输出目录")
+    parser.add_argument("--output_path", type=str, default="output", help="输出目录")
     args = parser.parse_args()
 
     # 创建输出目录

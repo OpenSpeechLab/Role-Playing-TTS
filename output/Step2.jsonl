@@ -1,0 +1,22 @@
+{audio_type: "bgm", layout: "background", id: 1, action: "start", vol: -38, desc: "Wistful and tired journey music with a hint of mystery", begin_fg_audio_id: 0, end_fg_audio_id: 15}
+{audio_type: "sfx", layout: "foreground", vol: -28, duration: 6, desc: "Distant river flowing, gentle wind blowing", id: 0}
+{audio_type: "speech", layout: "foreground", speaker: "旁白", vol: -15, text: "夕阳西下，晚霞如火，将万里河山镀上一层金边。唐僧师徒四人西行许久，身心俱疲，正行至一处荒凉河畔。", speaker_age: "中年", speaker_sex: "男", id: 1}
+{audio_type: "speech", layout: "foreground", speaker: "唐僧", vol: -15, text: "悟空，八戒，悟净，天色已晚，今日路途如此遥远，却只见这滔滔河水，不知前方可有村舍客栈歇脚？", speaker_age: "中年", speaker_sex: "男", id: 2}
+{audio_type: "speech", layout: "foreground", speaker: "孙悟空", vol: -15, text: "师父莫急！俺老孙去前方探探路。这河水波澜壮阔，怕不是寻常小溪。待俺仔细瞧瞧！", speaker_age: "青年", speaker_sex: "男", id: 3}
+{audio_type: "sfx", layout: "foreground", vol: -20, duration: 2, desc: "A quick leap sound, followed by shifting gravel", id: 4}
+{audio_type: "speech", layout: "foreground", speaker: "旁白", vol: -15, text: "孙悟空纵身一跃，跳上高处，眯起火眼金睛，极目远眺。只见眼前河流宽阔无边，水流湍急，波涛汹涌，隐约有股异样的气息弥漫。", speaker_age: "中年", speaker_sex: "男", id: 5}
+{audio_type: "sfx", layout: "foreground", vol: -22, duration: 4, desc: "Loud, powerful river current and crashing waves", id: 6}
+{audio_type: "speech", layout: "foreground", speaker: "孙悟空", vol: -15, text: "哎呀！师父，这哪里是寻常河流？一眼望不到对岸，宽阔如海！水面宽达八百里，深不知几许！恐怕正是那通天河！", speaker_age: "青年", speaker_sex: "男", id: 7}
+{audio_type: "sfx", layout: "foreground", vol: -25, duration: 2, desc: "Heavy body sitting down with a thud", id: 8}
+{audio_type: "speech", layout: "foreground", speaker: "猪八戒", vol: -15, text: "我的老天爷啊！八百里宽？这可如何是好？莫不是老猪要在这里做水怪了？这等大河，别说渡，看着都让人腿软。", speaker_age: "中年", speaker_sex: "男", id: 9}
+{audio_type: "speech", layout: "foreground", speaker: "沙僧", vol: -15, text: "二师兄休要胡言。我们自西天取经，逢山开路，遇水搭桥。这通天河如此宽广，想必其中必有蹊跷，或有渡口，或有神灵相助。总之，师父在此，我们总能想到办法。", speaker_age: "中年", speaker_sex: "男", id: 10}
+{audio_type: "speech", layout: "foreground", speaker: "唐僧", vol: -15, text: "阿弥陀佛。善哉善哉。悟净说得是。既是天命如此，这通天河，想必正是此行一劫。只是这河水浩瀚，又无舟楫可寻，这可如何是好？", speaker_age: "中年", speaker_sex: "男", id: 11}
+{audio_type: "speech", layout: "foreground", speaker: "猪八戒", vol: -15, text: "哎，又要露宿荒野了……不知道这河里有没有什么好吃的鱼虾蟹……", speaker_age: "中年", speaker_sex: "男", id: 12}
+{audio_type: "speech", layout: "foreground", speaker: "孙悟空", vol: -15, text: "呆子！别光想着吃！师父，俺老孙看这河边不远处，似乎有一户人家，炊烟袅袅。不如我们前去借宿，顺便打听一下这通天河的情况，看有无渡船或摆渡之人。", speaker_age: "青年", speaker_sex: "男", id: 13}
+{audio_type: "sfx", layout: "foreground", vol: -30, duration: 6, desc: "Faint distant village sounds, gentle crackling of a fire", id: 14}
+{audio_type: "speech", layout: "foreground", speaker: "唐僧", vol: -15, text: "悟空此言有理。我等行走多日，也该歇歇了。走吧，去那户人家看看，或许能得知过河之法。", speaker_age: "中年", speaker_sex: "男", id: 15}
+{audio_type: "bgm", layout: "background", id: 1, action: "stop"}
+{audio_type: "bgm", layout: "background", id: 2, action: "start", vol: -35, desc: "Ominous and anticipatory orchestral music", begin_fg_audio_id: 16, end_fg_audio_id: 17}
+{audio_type: "sfx", layout: "foreground", vol: -24, duration: 6, desc: "Footsteps on dirt path, increasing sound of rushing river water", id: 16}
+{audio_type: "speech", layout: "foreground", speaker: "旁白", vol: -15, text: "于是，师徒四人循着炊烟的方向，向着那户河边的人家走去。通天河的滔滔水声，在暮色中显得格外沉重，仿佛在低语着即将降临的挑战，预示着前方未知的艰难。", speaker_age: "中年", speaker_sex: "男", id: 17}
+{audio_type: "bgm", layout: "background", id: 2, action: "stop"}
