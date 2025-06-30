@@ -3,7 +3,11 @@
 Welcome to **Role-Playing-TTS**!
 
 ## 🔊 Results
-[play](./output/audio/final_mix.wav)
+
+
+https://github.com/user-attachments/assets/22f9a278-60ae-4bae-86be-6b5e26c32246
+
+
 
 ## 📚 Usage Guide
 
