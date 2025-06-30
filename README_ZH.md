@@ -3,10 +3,7 @@
 欢迎来到 **Role-Playing-TTS**！
 
 ##🔊 示例音频
-<audio controls>
-  <source src="output/audio/final_mix.wav" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+[play](./output/audio/final_mix.wav)
 
 ## 📚 使用指南
 
