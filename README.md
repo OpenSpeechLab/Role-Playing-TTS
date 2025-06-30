@@ -81,10 +81,10 @@ You can generate speech directly from the command line. Here is an example of ge
 # Make sure services.py is running
 python pipeline.py --text "请你创造一个唐僧师徒四人西天取经的有声短剧" --output_path output
 ```
---text: The content you want to synthesize (characters + theme).
---output_path: The generated audio file will be saved to this path.
---step1: The dialogue content to be generated (optional). Provide the character dialogue, and GPT will analyze it to add sound effects and BGM.
---step2: The complete version with sound effects, BGM, and dialogue (optional). Provide the sound effects, BGM, and dialogue, and the model will generate the audio directly.
+--text: The content you want to synthesize (characters + theme).\n
+--output_path: The generated audio file will be saved to this path.\n
+--step1: The dialogue content to be generated (optional). Provide the character dialogue, and GPT will analyze it to add sound effects and BGM.\n
+--step2: The complete version with sound effects, BGM, and dialogue (optional). Provide the sound effects, BGM, and dialogue, and the model will generate the audio directly.\n
 For the format of step1 and step2, please refer to the files in the `output` directory.
 
 **c. Launch the Web UI (Recommended):**
