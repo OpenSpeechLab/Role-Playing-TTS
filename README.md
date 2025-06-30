@@ -2,6 +2,9 @@
 
 Welcome to **Role-Playing-TTS**!
 
+##Results
+
+[final_mix.wav](output/audio/final_mix.wav)
 
 ## 📚 Usage Guide
 
@@ -28,6 +31,9 @@ cd CosyVoice # Enter the CosyVoice directory
 ```
 **c. Download model files:**
 
+```bash
+python download.py
+```
 
 ### 2. Configure the Environment
 
@@ -39,6 +45,11 @@ conda create -n audio -y python=3.10
 conda activate audio
 
 pip install -r requirements.txt
+
+cd /TTS/CosyVoice/pretrained_models/CosyVoice-ttsfrd
+unzip resource.zip -d .
+pip install ttsfrd_dependency-0.1-py3-none-any.whl
+pip install ttsfrd-0.4.2-cp310-cp310-linux_x86_64.whl
 ```
 
 ### 3. Run the System
@@ -50,8 +61,18 @@ First, start the backend API service so that subsequent programs can interact wi
 # Execute in the root directory of Role-Playing-TTS
 python services.py
 ```
+Set environment variables for using API services GPT-4 API
+```bash
+export OPENAI_API_KEY=your_openai_key
+```
+Setting up the proxy
+
+Please modify the OPENAI_PROXY parameter in  `pipeline.py `
+
 **b. Use the Command-Line Pipeline for TTS Synthesis**
 You can generate speech directly from the command line. Here is an example of generating an audio drama about "Journey to the West".
+
+
 ```bash
 # Make sure you have activated the 'audio' environment
 # Make sure services.py is running
@@ -74,10 +95,11 @@ We only provide voices for a dozen or so characters, such as Sun Wukong, Zhu Baj
 
 ### Acknowledgements
 We have borrowed and used code from the following projects, and we would like to express our gratitude:
-https://github.com/FunAudioLLM/CosyVoice
-https://github.com/Audio-AGI/WavJourney
-https://github.com/hkchengrex/MMAudio
+[CosyVoice](https://github.com/FunAudioLLM/CosyVoice)
+[WavJourney](https://github.com/Audio-AGI/WavJourney)
+[MMAudio](https://github.com/hkchengrex/MMAudio)
 
 ### Disclaimer
 The content provided above is for academic purposes only, intended to demonstrate technical capabilities. Some examples are from the internet. If any content infringes on your rights, please contact us for removal.
 We are not responsible for any audio generated using this model. Please ensure it is not used for any illegal purposes.
+

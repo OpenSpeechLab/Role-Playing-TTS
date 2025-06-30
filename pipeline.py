@@ -8,7 +8,16 @@ import argparse
 import os
 import re
 import time
+from contextlib import contextmanager
 
+
+# --- Proxy Configuration for OpenAI ---
+# Set your proxy URL here. If set to None or an empty string, no proxy will be used.
+# Example: "http://user:pass@host:port" or "socks5://user:pass@host:port"
+OPENAI_PROXY = "http://closeai-proxy.pjlab.org.cn:23128"
+# ------------------------------------
+
+# Helper to temporarily set proxy environment vars
 
 def get_file_content(filename):
     with open(filename, 'r') as file:
@@ -34,14 +43,7 @@ def try_extract_content_from_quotes(content):
     else:
         return content
 
-# --- Proxy Configuration for OpenAI ---
-# Set your proxy URL here. If set to None or an empty string, no proxy will be used.
-# Example: "http://user:pass@host:port" or "socks5://user:pass@host:port"
-OPENAI_PROXY = "http://closeai-proxy.pjlab.org.cn:23128"
-# ------------------------------------
 
-# Helper to temporarily set proxy environment vars
-from contextlib import contextmanager
 
 
 @contextmanager
