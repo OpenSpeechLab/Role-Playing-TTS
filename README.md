@@ -2,9 +2,11 @@
 
 Welcome to **Role-Playing-TTS**!
 
-##Results
-
-[final_mix.wav](output/audio/final_mix.wav)
+##🔊 Results
+<audio controls>
+  <source src="output/audio/final_mix.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ## 📚 Usage Guide
 

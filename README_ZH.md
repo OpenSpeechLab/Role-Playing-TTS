@@ -2,6 +2,11 @@
 
 欢迎来到 **Role-Playing-TTS**！
 
+##🔊 示例音频
+<audio controls>
+  <source src="output/audio/final_mix.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ## 📚 使用指南
 
@@ -27,7 +32,9 @@ git clone https://github.com/FunAudioLLM/CosyVoice.git
 cd CosyVoice # 进入 CosyVoice 目录
 ```
 **c. 下载模型文件：**
-
+```bash
+python download.py
+```
 
 ### 2. 配置运行环境
 
@@ -39,6 +46,12 @@ conda create -n audio -y python=3.10
 conda activate audio
 
 pip install -r requirements.txt
+
+cd /TTS/CosyVoice/pretrained_models/CosyVoice-ttsfrd
+unzip resource.zip -d .
+pip install ttsfrd_dependency-0.1-py3-none-any.whl
+pip install ttsfrd-0.4.2-cp310-cp310-linux_x86_64.whl
+
 ```
 
 ### 3. 运行系统
@@ -50,6 +63,13 @@ pip install -r requirements.txt
 # 在 Role-Playing-TTS 根目录下执行
 python services.py
 ```
+
+设置使用 API 服务 GPT-4 API 的环境变量
+```bash
+export OPENAI_API_KEY=your_openai_key
+```
+设置代理
+请修改 pipeline.py 中的 OPENAI_PROXY 参数
 **b. 使用命令行管道进行 TTS 合成**
 您可以直接通过命令行生成语音。以下是一个示例，生成一个关于“唐僧师徒四人西天取经”的有声短剧。
 ```bash
