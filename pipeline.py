@@ -14,7 +14,7 @@ from contextlib import contextmanager
 # --- Proxy Configuration for OpenAI ---
 # Set your proxy URL here. If set to None or an empty string, no proxy will be used.
 # Example: "http://user:pass@host:port" or "socks5://user:pass@host:port"
-OPENAI_PROXY = "http://closeai-proxy.pjlab.org.cn:23128"
+OPENAI_PROXY = " "
 # ------------------------------------
 
 # Helper to temporarily set proxy environment vars
