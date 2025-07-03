@@ -12,7 +12,7 @@ import os
 with gr.Blocks(title="AudiobookAgent 配音演示", theme=gr.themes.Soft()) as demo:
     gr.Markdown(
         """
-        # 📖 AudiobookAgent 一键配音演示
+        # 📖 Role-Playing-TTS 一键配音演示
 
         请按需填写下列输入项：
 
