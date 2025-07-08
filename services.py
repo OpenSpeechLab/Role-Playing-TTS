@@ -31,7 +31,7 @@ MODELS = {
 
 
 
-def load_rag_model(model_name: str = '/cpfs01/user/renyiming/.cache/modelscope/hub/models/Qwen/Qwen3-Embedding-0___6B'):
+def load_rag_model(model_name: str = 'Qwen/Qwen3-Embedding-0.6B'):
     """Load RAG embedding model."""
     log.info(f"Loading RAG model from: {model_name}")
     try:
