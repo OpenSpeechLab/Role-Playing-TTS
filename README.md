@@ -68,9 +68,9 @@ Set environment variables for using API services GPT-4 API
 ```bash
 export OPENAI_API_KEY=your_openai_key
 ```
-Setting up the proxy
+Setting up the proxy and openai_key
 
-Please modify the OPENAI_PROXY parameter in  `pipeline.py `
+Please modify the OPENAI_PROXY and OPENAI_KEY parameter in  `pipeline.py `
 
 **b. Use the Command-Line Pipeline for TTS Synthesis**
 You can generate speech directly from the command line. Here is an example of generating an audio drama about "Journey to the West".
