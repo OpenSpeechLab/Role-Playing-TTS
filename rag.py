@@ -122,13 +122,13 @@ def rag_speakers(
     return final_result
     # print(f"匹配结果已保存到 {output_json_path}")
 
-tokenizer, model = load_embedding_model('/cpfs01/user/renyiming/.cache/modelscope/hub/models/Qwen/Qwen3-Embedding-0___6B')
+tokenizer, model = load_embedding_model('Qwen/Qwen3-Embedding-0.6B')
 if __name__ == "__main__":
 # 使用示例
     rag_speakers(
-        '/cpfs01/user/renyiming/AudiobookAgent/test.jsonl',
-        '/cpfs01/user/renyiming/AudiobookAgent/char_to_voice_map.jsonl',
-        '/cpfs01/user/renyiming/AudiobookAgent/match_results.json',
+        'AudiobookAgent/test.jsonl',
+        'AudiobookAgent/char_to_voice_map.jsonl',
+        'AudiobookAgent/match_results.json',
         tokenizer,
         model
     )
