@@ -65,9 +65,7 @@ First, start the backend API service so that subsequent programs can interact wi
 python services.py
 ```
 Set environment variables for using API services GPT-4 API
-```bash
-export OPENAI_API_KEY=your_openai_key
-```
+
 Setting up the proxy and openai_key
 
 Please modify the OPENAI_PROXY and OPENAI_KEY parameter in  `pipeline.py `
