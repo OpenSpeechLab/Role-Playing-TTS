@@ -15,6 +15,7 @@ from contextlib import contextmanager
 # Set your proxy URL here. If set to None or an empty string, no proxy will be used.
 # Example: "http://user:pass@host:port" or "socks5://user:pass@host:port"
 OPENAI_PROXY = " "
+OPENAI_KEY=" "
 # ------------------------------------
 
 # Helper to temporarily set proxy environment vars
@@ -72,7 +73,7 @@ def _temp_proxy_env(proxy_url: str):
 def chat_with_gpt(input_text):
     """Call OpenAI GPT with optional proxy settings."""
     with _temp_proxy_env(OPENAI_PROXY):
-        client = OpenAI()
+        client = OpenAI((api_key = OPENAI_KEY)
         response = client.responses.create(
             model="gpt-4.1",
             input=input_text,
