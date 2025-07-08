@@ -101,7 +101,7 @@ if __name__ == "__main__":
             cosyvoice_model,
             tts_text="哪吒，你明知道你身上背负着魔丸的诅咒，为何还要一再挑衅别人？你就这么不在乎自己吗？",
             prompt_text="昂，我丑，是丑了点儿，可干活有真劲啊，家长里短，桩桩件件，我都行啊。",
-            prompt_speech_16k="/cpfs01/user/renyiming/renyiming/CosyVoice/asset/zero_shot/昂，我丑，是丑了点儿，可干活有真劲啊，家长里短，桩桩件件，我都行啊。.wav" ,# 确保这个 speaker 存在
+            prompt_speech_16k="zbj.wav" ,# 确保这个 speaker 存在
             normalize=True,
             volume=TARGET_LUFS_SPEECH,
             peak_norm_db_for_norm=PEAK_NORM_DB
